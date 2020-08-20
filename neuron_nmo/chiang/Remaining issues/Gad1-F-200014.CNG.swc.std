@@ -1,0 +1,282 @@
+# Standardization file for Gad1-F-200014.CNG.swc created with StdSwc version 1.31 on 7/21/16.
+# Edited SWC file saved as Gad1-F-200014.CNG.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+4.3  Radius of line 2 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  1.08  6.65  5.16
+4.3  Radius of line 3 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  0.23  13.95  -4.6
+4.3  Radius of line 4 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  3.73  20.79  -4.99
+4.3  Radius of line 5 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  0.45  23.65  -7.93
+4.3  Radius of line 6 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -9.27  28.77  -6.44
+4.3  Radius of line 7 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -10.91  37.51  -5.25
+4.3  Radius of line 8 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -16.07  51.86  2.29
+4.3  Radius of line 9 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -17.53  57.48  3.98
+4.3  Radius of line 10 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -18.07  62.53  3.74
+4.3  Radius of line 11 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -19.32  63.24  -3.2
+4.3  Radius of line 12 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -19.13  64.41  -3.98
+4.3  Radius of line 13 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -26.46  67.58  -7.4
+4.3  Radius of line 14 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -28.45  67.91  -12.55
+4.3  Radius of line 15 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -24.03  72.04  -14.24
+4.3  Radius of line 16 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -14.86  80.17  -8.72
+4.3  Radius of line 17 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -17.07  87.55  -5.86
+4.3  Radius of line 18 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -14.52  88.57  -2.39
+4.3  Radius of line 19 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -7.9  95.68  -0.34
+4.3  Radius of line 20 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -18.7  98.41  -5.31
+4.3  Radius of line 21 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -11.72  105.7  -4.17
+4.3  Radius of line 22 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -18.12  106.17  -8.9
+4.3  Radius of line 23 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -11.5  117.53  -8.13
+4.3  Radius of line 24 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -16.63  123.68  -7.83
+4.3  Radius of line 25 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -6.18  125.02  -3.24
+4.3  Radius of line 26 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -8.56  137.63  -1.52
+4.3  Radius of line 27 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -8.54  141.9  -2.8
+4.3  Radius of line 28 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -8.54  144.03  -3.43
+4.3  Radius of line 29 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -11.28  158.58  -1.44
+4.3  Radius of line 30 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -11.29  168.92  5.14
+4.3  Radius of line 31 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -12.36  181.14  4.02
+4.3  Radius of line 32 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -13.29  183.86  5.32
+4.3  Radius of line 33 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -29.79  189.24  2.98
+4.3  Radius of line 34 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -28.9  192.61  9.55
+4.3  Radius of line 35 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -39.94  193.85  15.15
+4.3  Radius of line 36 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -41.24  194.25  18.0
+4.3  Radius of line 37 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -54.47  192.52  19.87
+4.3  Radius of line 38 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -47.87  195.35  23.19
+4.3  Radius of line 39 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -53.02  195.1  25.41
+4.3  Radius of line 40 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -69.4  197.06  33.36
+4.3  Radius of line 41 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -83.22  204.33  43.51
+4.3  Radius of line 42 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -93.13  206.15  46.41
+4.3  Radius of line 43 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -90.77  208.15  50.0
+4.3  Radius of line 44 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -116.86  204.9  52.84
+4.3  Radius of line 45 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -141.08  204.75  50.52
+4.3  Radius of line 46 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -152.46  203.98  47.88
+4.3  Radius of line 47 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -171.35  200.98  43.84
+4.3  Radius of line 48 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -180.37  197.96  46.08
+4.3  Radius of line 49 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -222.22  185.88  39.43
+4.3  Radius of line 50 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -246.99  171.89  32.83
+4.3  Radius of line 51 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -256.34  152.25  21.48
+4.3  Radius of line 52 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -266.81  142.38  19.45
+4.3  Radius of line 53 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -263.73  134.1  24.44
+4.3  Radius of line 54 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -270.51  132.23  21.25
+4.3  Radius of line 55 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -276.04  129.66  25.0
+4.3  Radius of line 56 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -273.27  125.78  19.83
+4.3  Radius of line 57 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -273.09  122.67  20.33
+4.3  Radius of line 58 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -274.55  115.83  16.07
+4.3  Radius of line 59 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -274.53  120.09  14.79
+4.3  Radius of line 60 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -274.34  123.39  13.38
+4.3  Radius of line 61 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -275.04  121.19  6.04
+4.3  Radius of line 62 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -274.83  114.14  -1.97
+4.3  Radius of line 63 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -270.42  114.01  -2.37
+4.3  Radius of line 64 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -277.02  113.31  -6.34
+4.3  Radius of line 65 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -276.28  111.57  -7.51
+4.3  Radius of line 66 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -278.45  110.73  -11.88
+4.3  Radius of line 67 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -285.42  109.83  -14.94
+4.3  Radius of line 68 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -289.09  108.23  -15.7
+4.3  Radius of line 69 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -298.8  105.13  -21.46
+4.3  Radius of line 70 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -300.99  104.3  -25.82
+4.3  Radius of line 71 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -293.78  106.68  -33.34
+4.3  Radius of line 72 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -294.68  101.19  -39.27
+4.3  Radius of line 73 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -291.5  93.56  -53.87
+4.3  Radius of line 74 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -289.85  86.97  -55.7
+4.3  Radius of line 75 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -273.83  74.46  -69.36
+4.3  Radius of line 76 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -275.28  69.75  -74.26
+4.3  Radius of line 77 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -277.1  66.97  -78.89
+4.3  Radius of line 78 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -265.87  64.75  -84.63
+4.3  Radius of line 79 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -275.57  63.8  -91.02
+4.3  Radius of line 80 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -279.56  62.32  -100.67
+4.5  Radius of terminal line 81 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -285.8  57.55  -104.26
+4.3  Radius of line 82 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -281.55  114.74  -15.59
+4.3  Radius of line 83 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -262.98  120.01  -21.08
+4.3  Radius of line 84 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -267.56  125.39  -21.82
+4.3  Radius of line 85 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -269.92  125.52  -26.06
+4.3  Radius of line 86 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -267.32  124.73  -31.75
+4.5  Radius of terminal line 87 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -273.9  124.04  -35.71
+4.3  Radius of line 88 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -264.55  120.72  1.47
+4.3  Radius of line 89 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -265.97  126.67  -6.62
+4.5  Radius of terminal line 90 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -268.71  126.61  -9.96
+4.3  Radius of line 91 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -276.55  114.02  11.57
+4.3  Radius of line 92 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -267.95  104.05  14.07
+4.5  Radius of terminal line 93 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -267.97  97.65  15.98
+4.3  Radius of line 94 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -284.07  113.9  9.54
+4.3  Radius of line 95 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -288.63  108.93  2.21
+4.5  Radius of terminal line 96 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -294.11  106.68  -3.82
+4.3  Radius of line 97 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -6.95  189.28  -10.67
+4.3  Radius of line 98 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -10.76  188.96  -21.09
+4.3  Radius of line 99 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -4.86  189.6  -25.11
+4.3  Radius of line 100 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -9.79  186.57  -32.19
+4.3  Radius of line 101 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -11.04  187.28  -39.14
+4.3  Radius of line 102 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -17.21  184.96  -53.15
+4.3  Radius of line 103 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -22.64  185.18  -69.63
+4.3  Radius of line 104 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -32.35  182.08  -75.38
+4.3  Radius of line 105 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -33.03  184.16  -84.0
+4.3  Radius of line 106 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -40.49  188.63  -97.1
+4.3  Radius of line 107 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -49.81  192.14  -105.67
+4.3  Radius of line 108 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -54.98  195.96  -133.34
+4.3  Radius of line 109 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -52.74  201.39  -140.04
+4.3  Radius of line 110 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -40.25  202.72  -140.11
+4.3  Radius of line 111 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -39.71  199.81  -140.51
+4.3  Radius of line 112 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -36.98  197.74  -136.53
+4.5  Radius of terminal line 113 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -35.54  196.05  -129.72
+4.3  Radius of line 114 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -2.34  182.1  -19.09
+4.5  Radius of terminal line 115 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  2.06  179.83  -18.86
+4.3  Radius of line 116 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -3.07  142.02  3.87
+4.3  Radius of line 117 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -6.6  141.24  12.13
+4.3  Radius of line 118 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -12.12  140.8  15.25
+4.5  Radius of terminal line 119 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -9.2  139.89  18.46
+4.3  Radius of line 120 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -4.01  123.72  1.76
+4.5  Radius of terminal line 121 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -4.05  123.4  11.55
+4.3  Radius of line 122 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -12.26  110.74  -4.41
+4.3  Radius of line 123 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -9.89  112.74  -0.81
+4.3  Radius of line 124 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  0.35  110.79  5.18
+4.5  Radius of terminal line 125 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -0.01  110.6  6.09
+4.3  Radius of line 126 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -22.08  58.92  -5.26
+4.3  Radius of line 127 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -18.57  53.29  -11.61
+4.3  Radius of line 128 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -25.86  50.39  -22.92
+4.3  Radius of line 129 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -22.93  37.01  -25.68
+4.3  Radius of line 130 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -31.35  33.53  -34.28
+4.3  Radius of line 131 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -16.63  31.76  -38.49
+4.3  Radius of line 132 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -12.96  35.5  -38.37
+4.5  Radius of terminal line 133 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -9.12  31.88  -36.46
+4.3  Radius of line 134 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -10.2  27.22  -3.86
+4.3  Radius of line 135 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -1.43  28.76  4.46
+4.3  Radius of line 136 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  7.88  27.38  12.4
+4.5  Radius of terminal line 137 at 0.5 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  3.82  21.31  13.82
+ 
+ 
