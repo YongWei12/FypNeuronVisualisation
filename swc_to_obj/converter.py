@@ -1,0 +1,5 @@
+f = open("demofile3.obj", "w")
+f.write("v 0 0 0 \n")
+f.write("v 0 1 0 \n")
+f.write("v 0 0 1 \n")
+f.close()
