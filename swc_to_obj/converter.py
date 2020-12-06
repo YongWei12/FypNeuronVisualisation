@@ -18,6 +18,17 @@ def createSphere(x, y, z, radius, f):
             zout = str(round ( radius * math.cos(lon) +z , 7))
             f.write("v " + xout +" " + yout + " " + zout + "\n")
 
+def createAxon(x, y, z, radius, f):
+    total = 3
+    for i in range (total):
+        lat = (i/total)*(math.pi)
+        for j in range (total):
+            lon = (j/total)* (2*math.pi)
+            xout = str(round( radius * math.sin(lon) * math.cos(lat) +x , 7))
+            yout = str(round( radius * math.sin(lon) * math.sin(lat) +y , 7))
+            zout = str(round ( radius * math.cos(lon) +z , 7))
+            f.write("v " + xout +" " + yout + " " + zout + "\n")
+
 
 
 #code to create and open output file
@@ -33,8 +44,12 @@ for f in flines:
         continue
     elif(chunks[1] == "1"):
         createSphere(float(chunks[2]), float(chunks[3]), float(chunks[4]), float(chunks[5]), fout)
-        print("X " + chunks[2]+ " y " + chunks[3] +" Z "+chunks[4])
-        print(chunks)
+        # print("X " + chunks[2]+ " y " + chunks[3] +" Z "+chunks[4])
+        # print(chunks)
+    elif(chunks[1] == "2"):
+        createAxon(float(chunks[2]), float(chunks[3]), float(chunks[4]), float(chunks[5]), fout)
+    elif(chunks[1] == "3"):
+        createAxon(float(chunks[2]), float(chunks[3]), float(chunks[4]), float(chunks[5]), fout)
     else:
         continue
 
