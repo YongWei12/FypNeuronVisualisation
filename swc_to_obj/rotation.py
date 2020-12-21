@@ -20,9 +20,9 @@ def FF(A, B):
 def UU(Fi, G ):
     return  np.matmul(np.matmul(Fi,G), inv(Fi))
 
-a= np.array([ 1, 0, 0])
-b= np.array([   0,  1, 0])
-print(a)
-print(GG(a, b))
-print(FF(a,b))
-print(UU(FF(a,b), GG(a,b)))
+# a= np.array([ 1, 0, 0])
+# b= np.array([   0,  1, 0])
+# print(a)
+# print(GG(a, b))
+# print(FF(a,b))
+# print(UU(FF(a,b), GG(a,b)))
