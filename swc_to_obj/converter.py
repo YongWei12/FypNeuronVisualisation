@@ -32,7 +32,7 @@ def createSphere(x, y, z, radius, f):
                 #draw the face triangle 
                 f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i][j+1]) + "\n")
             else: 
-                f.write("f " + str(globe[i][j+1]) +" " + str(globe[i-1][j+1]) + " " + str(globe[i][j+1]) + "\n")
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i-1][j+1]) + " " + str(globe[i][j+1]) + "\n")
 
 
 def createAxon(x, y, z, radius, f):
