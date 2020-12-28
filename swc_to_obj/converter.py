@@ -4,22 +4,39 @@ import os
 import rotation  as rt
 
 
+#Global variable to store the current point index 
+ptIndex = 1
 
 
 #function that create the vertices of a sphere and export in obj format
 def createSphere(x, y, z, radius, f):
-    total = 3
-    for i in range (total):
+    total = 30
+    global ptIndex
+    globe= [[0 for j in range(total + 1)] for i in range(total + 1)]
+    for i in range (total + 1):
         lat = (i/total)*(math.pi)
-        for j in range (total):
+        for j in range (total + 1):
             lon = (j/total)* (2*math.pi)
             xout = str(round( radius * math.sin(lon) * math.cos(lat) +x , 7))
             yout = str(round( radius * math.sin(lon) * math.sin(lat) +y , 7))
             zout = str(round ( radius * math.cos(lon) +z , 7))
             f.write("v " + xout +" " + yout + " " + zout + "\n")
+            globe[i][j] = ptIndex
+            ptIndex = ptIndex +1
+
+    #Draw the sphere here
+    for i in range (total-5):
+        for j in range (total -5):
+            #if latitude is even 
+            if i%2 ==0 :
+                #draw the face triangle 
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i][j+1]) + "\n")
+            else: 
+                f.write("f " + str(globe[i][j+1]) +" " + str(globe[i-1][j+1]) + " " + str(globe[i][j+1]) + "\n")
+
 
 def createAxon(x, y, z, radius, f):
-    total = 3
+    total = 8
     for i in range (total):
         lat = (i/total)*(math.pi)
         for j in range (total):
@@ -34,7 +51,7 @@ def createDendrite(currPos, parentPos, radius, f):
     v2 = (np.array( currPos- parentPos)) / np.linalg.norm(np.array( currPos- parentPos))
     v1 = (np.array([0,0,1]))/np.linalg.norm(np.array([0,0,1]))
     # number of points we want to generate 
-    total  = 5
+    total  = 8
     #for loop over specified number of points for circle 
     for  i in range (total):
         # for each point multiply it by its rotation matrix and add it with the center which is curr pos 
