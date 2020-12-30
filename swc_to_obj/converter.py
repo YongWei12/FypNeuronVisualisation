@@ -10,7 +10,7 @@ ptIndex = 1
 
 #function that create the vertices of a sphere and export in obj format
 def createSphere(x, y, z, radius, f):
-    total = 30
+    total = 10
     global ptIndex
     globe= [[0 for j in range(total + 1)] for i in range(total + 1)]
     for i in range (total + 1):
@@ -66,6 +66,8 @@ def createDendrite(currPos, parentPos, radius, f):
     v1 = (np.array([0,0,1]))/np.linalg.norm(np.array([0,0,1]))
     # number of points we want to generate 
     total  = 8
+    global ptIndex
+    cylinder = [0 for i in range(total + 1)]
     #for loop over specified number of points for circle 
     for  i in range (total):
         # for each point multiply it by its rotation matrix and add it with the center which is curr pos 
@@ -74,9 +76,22 @@ def createDendrite(currPos, parentPos, radius, f):
         rotationMatrix = rt.UU(rt.FF(v1,v2), rt.GG(v1,v2))
         newPt = currPos + np.matmul(rotationMatrix, point)
         # f.write("v " + str(point[0]) +" " + str(point[1]) + " " + str(point[2]) + "\n")
-        f.write("v " + str(newPt[0]) +" " + str(newPt[1]) + " " + str(newPt[2]) + "\n")
-        #write this point to a file
-    f.write("v " + str(currPos[0]) +" " + str(currPos[1]) + " " + str(currPos[2]) + "\n")
+        f.write("v " + str(round(newPt[0], 7)) +" " + str(round(newPt[1], 7)) + " " + str(round(newPt[2], 7)) + "\n")
+        #assign it to cylinder 
+        cylinder[i] = ptIndex
+        ptIndex = ptIndex +1
+
+    #Draw the cylinder 
+    for i in range (total):
+        if i%2 == 0: 
+            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] + 1) + "\n")
+            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] - 1) + "\n")
+        elif i%2 != 0 :
+            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total - 1) + "\n")
+            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total + 1) + "\n")
+
+                
+
 
 
 
