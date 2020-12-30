@@ -62,34 +62,38 @@ def createAxon(x, y, z, radius, f):
 
 #draw circle for axons and dendrites cells 
 def createDendrite(currPos, parentPos, radius, f):
-    v2 = (np.array( currPos- parentPos)) / np.linalg.norm(np.array( currPos- parentPos))
-    v1 = (np.array([0,0,1]))/np.linalg.norm(np.array([0,0,1]))
-    # number of points we want to generate 
-    total  = 8
-    global ptIndex
-    cylinder = [0 for i in range(total + 1)]
-    #for loop over specified number of points for circle 
-    for  i in range (total):
-        # for each point multiply it by its rotation matrix and add it with the center which is curr pos 
-        angle = (i/total) * (2*math.pi)
-        point =  np.array([math.cos(angle), math.sin(angle),0 ]) 
-        rotationMatrix = rt.UU(rt.FF(v1,v2), rt.GG(v1,v2))
-        newPt = currPos + np.matmul(rotationMatrix, point)
-        # f.write("v " + str(point[0]) +" " + str(point[1]) + " " + str(point[2]) + "\n")
-        f.write("v " + str(round(newPt[0], 7)) +" " + str(round(newPt[1], 7)) + " " + str(round(newPt[2], 7)) + "\n")
-        #assign it to cylinder 
-        cylinder[i] = ptIndex
-        ptIndex = ptIndex +1
+    try:
+        if(np.linalg.norm(np.array( currPos- parentPos)) ==0):
+            return
+        v2 = (np.array( currPos- parentPos)) / np.linalg.norm(np.array( currPos- parentPos))
+        v1 = (np.array([0,0,1]))/np.linalg.norm(np.array([0,0,1]))
+        # number of points we want to generate 
+        total  = 8
+        global ptIndex
+        cylinder = [0 for i in range(total + 1)]
+        #for loop over specified number of points for circle 
+        for  i in range (total):
+            # for each point multiply it by its rotation matrix and add it with the center which is curr pos 
+            angle = (i/total) * (2*math.pi)
+            point =  np.array([math.cos(angle), math.sin(angle),0 ]) 
+            rotationMatrix = rt.UU(rt.FF(v1,v2), rt.GG(v1,v2))
+            newPt = currPos + np.matmul(rotationMatrix, point)
+            # f.write("v " + str(point[0]) +" " + str(point[1]) + " " + str(point[2]) + "\n")
+            f.write("v " + str(round(newPt[0], 7)) +" " + str(round(newPt[1], 7)) + " " + str(round(newPt[2], 7)) + "\n")
+            #assign it to cylinder 
+            cylinder[i] = ptIndex
+            ptIndex = ptIndex +1
 
-    #Draw the cylinder 
-    for i in range (total):
-        if i%2 == 0: 
-            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] + 1) + "\n")
-            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] - 1) + "\n")
-        elif i%2 != 0 :
-            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total - 1) + "\n")
-            f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total + 1) + "\n")
-
+        #Draw the cylinder 
+        for i in range (total):
+            if i%2 == 0: 
+                f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] + 1) + "\n")
+                f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] - 1) + "\n")
+            elif i%2 != 0 :
+                f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total - 1) + "\n")
+                f.write("f " + str(cylinder[i]) +" " + str(cylinder[i] - total) + " " + str(cylinder[i] -total + 1) + "\n")
+    except:
+        print("something went wront")
                 
 
 
@@ -107,7 +111,7 @@ fin = open("./swc_to_obj/sample_neuron.swc", "r")
 flines = fin.readlines()
 for f in flines: 
     chunks = f.split(" ")
-    if(chunks[0] == "#"):
+    if(chunks[0] == "#" or chunks[0] =='#\n' ):
         continue
     elif(chunks[1] == "1"):
         createSphere(float(chunks[2]), float(chunks[3]), float(chunks[4]), float(chunks[5]), fout)
@@ -119,12 +123,15 @@ for f in flines:
         parent = chunks[-1].rstrip("\n")
         # get the x,y z position for the parent element 
         #for loop though whole data again 
-        for f2 in flines:
-            #if parent equal to id return its x,y,z 
-            innerChunk = f2.split(" ")
-            if parent == innerChunk[0]:
-                parentAxis =  np.array([float(innerChunk[2]), float(innerChunk[3]), float(innerChunk[4])])
-                break
+        if(parent == "-1"):
+            parentAxis = np.array([float(chunks[2]), float(chunks[3]), float(chunks[4])])
+        else:
+            for f2 in flines:
+                #if parent equal to id return its x,y,z 
+                innerChunk = f2.split(" ")
+                if parent == innerChunk[0]:
+                    parentAxis =  np.array([float(innerChunk[2]), float(innerChunk[3]), float(innerChunk[4])])
+                    break
         
         #get the x,y,z for the child element 
         childAxis  = np.array([float(chunks[2]), float(chunks[3]), float(chunks[4])])
