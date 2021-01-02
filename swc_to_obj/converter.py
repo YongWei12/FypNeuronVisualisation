@@ -30,6 +30,14 @@ def createSphere(x, y, z, radius, f):
             #if latitude is even 
             if i ==0:
                 f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i][j+1]) + "\n")
+            elif i == (total-1) and i%2 ==0:
+                f.write("f " + str(globe[i][j+1]) +" " + str(globe[i+1][j+1]) + " " + str(globe[i+1][j]) + "\n")
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i-1][j]) + " " + str(globe[i][j+1]) + "\n")
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i][j+1]) + "\n")
+            elif i == (total-1) and i%2 !=0:
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i+1][j+1]) + "\n")
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i-1][j+1]) + " " + str(globe[i][j+1]) + "\n")
+                f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j+1]) + " " + str(globe[i][j+1]) + "\n")
             if i%2 ==0  and i !=0:
                 #draw the face triangle 
                 f.write("f " + str(globe[i][j]) +" " + str(globe[i-1][j]) + " " + str(globe[i][j+1]) + "\n")
@@ -38,10 +46,7 @@ def createSphere(x, y, z, radius, f):
             elif i%2 !=0: 
                 f.write("f " + str(globe[i][j]) +" " + str(globe[i-1][j+1]) + " " + str(globe[i][j+1]) + "\n")
                 f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j+1]) + " " + str(globe[i][j+1]) + "\n")
-            elif i == (total) and (total-1)%2 ==0:
-                f.write("f " + str(globe[i][j+1]) +" " + str(globe[i+1][j+1]) + " " + str(globe[i+1][j]) + "\n")
-            elif i == (total) and (total-1)%2 !=0:
-                f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i+1][j+1]) + "\n")
+
             # if j%2 ==0 :
             #     #draw the face triangle 
             #     f.write("f " + str(globe[i][j]) +" " + str(globe[i+1][j]) + " " + str(globe[i][j+1]) + "\n")
