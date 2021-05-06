@@ -2,7 +2,7 @@ import math
 import numpy as np
 import os
 import rotation  as rt
-
+import time
 
 #Global variable to store the current point index 
 ptIndex = 1
@@ -114,6 +114,7 @@ fout  = open("demofile3.obj", "w")
 #getting the line by line of swc file 
 fin = open("./swc_to_obj/sample_neuron.swc", "r")
 flines = fin.readlines()
+start_time = time.time()
 for f in flines: 
     chunks = f.split(" ")
     if(chunks[0] == "#" or chunks[0] =='#\n' ):
@@ -154,6 +155,7 @@ for f in flines:
 
 
 fout.close()
+print("--- %s seconds ---" % (time.time() - start_time))
 
 #Helpful functions 
 # print(os.listdir())
